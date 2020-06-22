@@ -1,1 +1,1 @@
-web: gunicorn cloud_middel:app
+web: gunicorn --worker 3 cloud_middel:app
