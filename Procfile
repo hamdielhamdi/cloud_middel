@@ -1,1 +1,1 @@
-waitress-serve --port=5000 cloud_middel:cloud_middel
+waitress-serve --port=5000 cloud_middel:app
