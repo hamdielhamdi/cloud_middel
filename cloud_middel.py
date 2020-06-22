@@ -3,7 +3,7 @@ from flask import Flask, request
 import sqlite3
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
 import datetime
-from waitress import serve
+
 
 app = Flask(__name__)
 
@@ -73,4 +73,4 @@ def bridge_get():
 
 if __name__ == "__main__":
    #app.run() ##Replaced with below code to run it using waitress
-   serve(app, host='0.0.0.0', port=8000)
+   serve(app, host='0.0.0.0', port=5000)
