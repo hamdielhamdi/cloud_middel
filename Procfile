@@ -1,1 +1,1 @@
-waitress-serve --port=5000 cloud_middel:app
+web: gunicorn cloud_middel:app

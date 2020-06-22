@@ -72,5 +72,5 @@ def bridge_get():
 
 
 if __name__ == "__main__":
-   #app.run() ##Replaced with below code to run it using waitress
-   serve(app, host='0.0.0.0', port=5000)
+   app.run() ##Replaced with below code to run it using waitress
+   #erve(app, host='0.0.0.0', port=5000)
